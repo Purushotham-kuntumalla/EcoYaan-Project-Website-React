@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EcoYaan-Project-Website-React/static/css/main.6fb2c7a4.css",
-    "main.js": "/EcoYaan-Project-Website-React/static/js/main.172b3361.js",
+    "main.js": "/EcoYaan-Project-Website-React/static/js/main.ca52be49.js",
     "static/js/453.eef774a9.chunk.js": "/EcoYaan-Project-Website-React/static/js/453.eef774a9.chunk.js",
     "static/media/business_deal.svg": "/EcoYaan-Project-Website-React/static/media/business_deal.bc7511e2b52746ceccc229ea59b467ed.svg",
     "static/media/art-1.svg": "/EcoYaan-Project-Website-React/static/media/art-1.045811ccc0ef586dcdaef12f2b8cae36.svg",
@@ -12,11 +12,11 @@
     "static/media/slick.woff": "/EcoYaan-Project-Website-React/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/EcoYaan-Project-Website-React/index.html",
     "main.6fb2c7a4.css.map": "/EcoYaan-Project-Website-React/static/css/main.6fb2c7a4.css.map",
-    "main.172b3361.js.map": "/EcoYaan-Project-Website-React/static/js/main.172b3361.js.map",
+    "main.ca52be49.js.map": "/EcoYaan-Project-Website-React/static/js/main.ca52be49.js.map",
     "453.eef774a9.chunk.js.map": "/EcoYaan-Project-Website-React/static/js/453.eef774a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6fb2c7a4.css",
-    "static/js/main.172b3361.js"
+    "static/js/main.ca52be49.js"
   ]
 }
