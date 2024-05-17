@@ -1,0 +1,230 @@
+.team-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.team-section-head{
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.memberCard{
+    margin: 1rem;
+    width: 500px;
+    height: 320px;
+    background-color: rgba(186, 225, 238, 0.217);
+}
+
+.memberCard::before{
+    position: absolute;
+    content: '';
+    width: 7rem;
+    height: 1rem;
+    border-radius: 3%;
+    background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    z-index: 1;
+}
+
+
+.memberImage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.memberInfo{
+    padding: 1rem;
+   
+}
+
+
+
+.memberCard-profile{
+    width: 100px;
+    height: 100px;
+}
+.memberCard-link{
+    
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: .7rem;
+    text-decoration: none;
+    margin-bottom: .2rem;
+    margin-top: .2rem;
+}
+.link-btn{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+
+}
+.memberCard-link:hover{
+    background-color: #191818;
+    color: #ffffff;
+    transition: all 0.4s ease-in-out;
+}
+
+.memberCard-name{
+    font-size: 16px;
+    text-align: center;
+}
+
+.memberCard-team{
+    font-size: 14px;
+}
+
+.memberCard-info{
+    font-size: 14px;
+}
+
+.footer{
+    background: #FF5F6D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: auto;
+}
+
+.footer p{
+    
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #114232;
+    font-weight: 700;
+}
+
+.up-arrow{
+    position: absolute;   
+}
+
+.footer-divs{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+   padding: 1.5rem;
+}
+.footer-div1{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    flex-direction: column;
+}
+
+.footer-div1-h3{
+    color: #000000;
+}
+
+.footer-div1-p a{
+    text-decoration: none;
+    color: #003C43;
+}
+
+.footer-div2{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    flex-direction: column;
+}
+
+.footer-div3{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    flex-direction: column;
+}
+.footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-icons .icons{
+    margin-right: 16px;
+    font-size: 1.5rem;
+
+}
+
+.icons:hover{
+    color: #FF574A;
+    cursor: pointer;
+}
+.footer-div4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 1.2rem;
+}
+
+.footer-div4 input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer-div4 h5{
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.footer-div4 p{
+    text-align: left;
+}
+
+.footer-div4 p a{
+    margin-top: 0;
+    text-decoration: none;
+    color: #003C43;
+}
+.footer-div4 button{
+    width: 150px;
+    border: none;
+    padding: 12px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.footer-div4 button:hover{
+    background-color: #0A6847;
+    color: #FFFFFF;
+    transition: all 1s ease;
+    scale: .9;
+}
+
+.footer-divs-2{
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+   padding: 1.5rem;
+}
+.footer-div2-1 p {
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.copyrights{
+    background-color: #000000;
+    height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}

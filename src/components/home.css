@@ -1,0 +1,431 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    overflow-x: hidden;
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+
+.navbar-collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+}
+
+header{
+    background-color:  #FFFFFF;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FF574A;
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.nav-item{
+    font-family: "Noto Sans", sans-serif;
+    animation: scroll  .7s ease;
+}
+
+.nav-link{
+    color: #0A6847;
+    font-weight: 600;
+}
+
+
+.nav-link:hover{
+    transform: translateY(-3px);
+    transition: all 0.2s ease;
+    color: #FF574A;
+    text-decoration: underline;
+}
+
+.imag-div{
+    height: 530px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ecoyaan-head{
+    position: absolute;
+    top: 40%;
+    left: 26%;
+    transform: translate(-50% -50%);
+    background-color: #33333341;
+    padding: 2rem;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.ecoyaan-head-h3{
+    text-align: center;
+    font-size: 3rem;
+    color: #FF574A;
+    font-weight: 800;
+}
+
+.ecoyaan-head-p1{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+    
+}
+
+.section-2{
+    height: 550px;
+    padding-top: 5rem;
+}
+
+.slider-hero-info{
+    /* display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr; */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+h2{
+    text-align: center;
+    color: #000000;
+    
+    font-weight: 900;
+}
+.card-information{
+    background-color: #FF574A;
+    padding: 1.5rem;
+    width: 360px;
+    cursor: pointer;
+    height: 200px;
+    margin: 1rem;
+    border-radius: 5px;
+    border-left: 5px solid #0A6847;
+    
+}
+.card-information:hover{
+    border-left: 5px solid #0A6847;
+    background-color: #031c42;
+}
+h5{
+    color: #FFFFFF;
+    
+}
+
+p{
+    
+    color: #000;
+    
+}
+.card-btn{
+    border: none;
+    padding: .6rem;
+    outline: none;
+    background-color: #0A6847;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+}
+
+.card-btn:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+
+.section-3{
+    
+    height: 550px;
+}
+.join-our-community{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.join-community-info{
+    width: 650px;
+    padding: 1.8rem;
+    margin-top: 7rem;
+
+}
+
+.join-community-headding{
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 32px;
+    color: #031c42;
+}
+
+.join-community-p1{
+    padding-top: .5rem;
+    color: #000000;
+    font-size: 16px;
+}
+
+.join-community-p2{
+    color: #000000;
+}
+.community-image{
+    
+    width: 500px;
+}
+.community-image img{
+    width: 80%;
+    height: auto;
+    background-color: transparent;
+    animation: hu__hu__ infinite 2s ease-in-out;
+}
+
+@keyframes hu__hu__ {
+    50% { transform: translateY(30px) }
+}
+
+.section-4{
+    /* background-color: #DC143C; */
+    height: 550px;
+}
+.eco-friendly-products{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.eco-friendly-products-info{
+    width: 650px;
+    padding: 1.8rem;
+    margin-top: 7rem;
+
+}
+
+.eco-friendly-products-headding{
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 32px;
+    color: #031c42;
+}
+
+.eco-friendly-products-p1{
+    padding-top: .5rem;
+    color: #000000;
+    font-size: 16px;
+}
+
+.eco-friendly-products-p2{
+    color: #000000;
+}
+.eco-friendly-products-image{
+    
+    width: 500px;
+}
+.eco-friendly-products img{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+
+
+
+
+.section-5{
+    /* background-color: #DC143C; */
+    height: 550px;
+}
+.businesses{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.businesses-info{
+    width: 650px;
+    padding: 1.8rem;
+    margin-top: 7rem;
+
+}
+
+.businesses-headding{
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 32px;
+    color: #031c42;
+}
+
+.businesses-p1{
+    padding-top: .5rem;
+    color: #000000;
+    font-size: 16px;
+}
+
+.businesses-p2{
+    color: #000000;
+}
+.businesses-p3{
+    padding-top: .5rem;
+    color: #000000;
+    font-size: 16px;
+}
+.businesses-image{
+    
+    width: 500px;
+}
+.businesses img{
+    width: 80%;
+    height: auto;
+    background-color: transparent;
+    animation: hu__hu__ infinite 2s ease-in-out
+}
+
+.Contact-btn{
+    width: 150px;
+    border: none;
+    padding: 16px;
+    background-color: #FF574A;
+}
+
+.Contact-btn:hover{
+    background-color: #0A6847;
+    color: #FFFFFF;
+    transition: all 1s ease;
+    
+}
+
+
+/*mobile responsive*/
+@media (max-width: 600px) {
+    
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+.slider-section{
+   width: 393px;
+   overflow: hidden;
+}
+    .imag-div {
+        height: 300px;
+        
+    }
+    
+    .imag-div img{
+        width: 100%;
+        object-fit: contain;
+        
+    }
+
+    .ecoyaan-head {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        padding: 1rem;
+        border: 1px solid #000;
+    }
+
+    .ecoyaan-head-h3 {
+        font-size: 2rem;
+    }
+
+    .ecoyaan-head-p1 {
+        font-size: 1rem;
+    }
+
+    .section-2{
+        height: auto;
+        width: 100%;
+    }
+    .slider-hero-info {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       flex-wrap: wrap;
+       
+    }
+
+    .card-information {
+        width: 300px;
+        margin: 1rem 0;
+    }
+    .section-3{
+        margin-top: 2rem;
+    }
+.section-3, .section-4,.section-5{
+    height: auto;
+}
+.businesses{
+    flex-direction: column-reverse;
+}
+.join-our-community{
+    flex-direction: column-reverse;
+}
+    .join-community-info,
+    .eco-friendly-products-info,
+    .businesses-info {
+        width: 90%;
+        margin-top: 2rem;
+    }
+
+    .join-community-headding,
+    .eco-friendly-products-headding,
+    .businesses-headding {
+        font-size: 1.5rem;
+    }
+
+    .join-community-p1,
+    .join-community-p2,
+    .eco-friendly-products-p1,
+    .eco-friendly-products-p2,
+    .businesses-p1,
+    .businesses-p2,
+    .businesses-p3 {
+        font-size: 0.9rem;
+    }
+
+    .community-image,
+    .eco-friendly-products-image,
+    .businesses-image {
+        width: 360px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .community-image img,
+    .eco-friendly-products-image,
+    .businesses-image img{
+        animation: none;
+    }
+    .Contact-btn {
+        width: 120px;
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+
+
+.navbar-collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+}
+
+header{
+    background-color:  #FFFFFF;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FF574A;
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.nav-item{
+    font-family: "Noto Sans", sans-serif;
+    animation: scroll  .7s ease;
+}
+
+.nav-link{
+    color: #0A6847;
+    font-weight: 600;
+}
+
+
+.nav-link:hover{
+    transform: translateY(-3px);
+    transition: all 0.2s ease;
+    color: #FF574A;
+    text-decoration: underline;
+}
+.div-section{
+    background: #EECDA3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
